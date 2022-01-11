@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Library.sol": "Library"
+			"contracts/Library.sol": "DLibrary"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/Library.sol": {
-			"keccak256": "0x0e38e86ee279022a9c58c840b22128c3d32ce8174a7f2d8dd963058bcafa9af3",
+			"keccak256": "0x75c1b0b79bd5061577b6d1f8ee5036e23b3bb43562fa3a69331a4a54b8b8a228",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6d64e58f9593a693db0cf04222921bb0d78f9c1b9e15b71944b7fab54ce3b320",
-				"dweb:/ipfs/Qmcsouzis37K8CCwxnAarSHEKL4JML4PSEsLyhizafX2xy"
+				"bzz-raw://bbacd1e666a2e86f154b3019e4aa489d48160c55862f4fd4d24ff953ac43e4d1",
+				"dweb:/ipfs/QmRY4f474xpgtagMsQRAR2RfNwGBChTr5coEFRUPKjCoM7"
 			]
 		}
 	},
