@@ -8,6 +8,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "encodeFunction",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "_num",
 						"type": "uint256"
@@ -63,11 +82,11 @@
 	},
 	"sources": {
 		"contracts/Keccak256.sol": {
-			"keccak256": "0x5cc7e6819cd8829394a57dbc5d2861584973d408eedec5ca14a66cde79a54689",
+			"keccak256": "0x035fad597a2e5340f4e88ebf8c559cfc91ecca5308d18606d2e257afd1b9ac2e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2e98506cd26e92b67841e57b07fa3121057666c4a6d4932997565ee03d27f2df",
-				"dweb:/ipfs/QmQnZdpyYnH9EHVuqkCV4fdtmktuqB3SvFqcTtdG1wtUKu"
+				"bzz-raw://2d7ce598146519691713439c60bc3059fd89876541ff071a27d49c76b202c636",
+				"dweb:/ipfs/QmVzt6gWCAxvbCwepHLyWrQ4UARHrLcXvLixixdqjxKbc2"
 			]
 		}
 	},
