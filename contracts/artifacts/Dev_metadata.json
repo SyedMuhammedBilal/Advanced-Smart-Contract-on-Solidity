@@ -6,14 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "Testing",
+				"inputs": [],
+				"name": "testDevNet",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -21,19 +15,6 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_test",
-						"type": "string"
-					}
-				],
-				"name": "testNet",
-				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -51,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/VerifySignature.sol": "VerifySignature"
+			"contracts/VerifySignature.sol": "Dev"
 		},
 		"evmVersion": "london",
 		"libraries": {},

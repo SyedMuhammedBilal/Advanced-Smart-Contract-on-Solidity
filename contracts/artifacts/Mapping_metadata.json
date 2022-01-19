@@ -8,12 +8,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
-				"name": "Testing",
+				"name": "HotelRooms",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -28,13 +28,26 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_test",
+						"name": "_name",
 						"type": "string"
 					}
 				],
-				"name": "testNet",
+				"name": "addRooms",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "roomNo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -51,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/VerifySignature.sol": "VerifySignature"
+			"contracts/Mappings.sol": "Mapping"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -65,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/VerifySignature.sol": {
-			"keccak256": "0x2f3c5ac599989691e7592c3182e5c2e64403900e47fd0de4f2e7f088e91ddf79",
+		"contracts/Mappings.sol": {
+			"keccak256": "0x2cb3e019453df8d07160fa003c0b44cccff6466b24db231dab434c6a30131b51",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://42108bc3714732f88301ce17ca40bfd3f597e44c0a0ed0acf2cc163203cc274d",
-				"dweb:/ipfs/Qmf7QKZEr8eX98U1EcU7yFQ4tR71wc4HUuMKkFSZv1dT8E"
+				"bzz-raw://2f6c3eeb6c5f839534c1db4c4336a84be040c015a3671fa721314d34494c2b1f",
+				"dweb:/ipfs/QmdoSqyFrrsgjr6unX868n6Z45TT9rFGGF82H6DSh2Fz7T"
 			]
 		}
 	},
